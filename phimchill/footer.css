@@ -1,0 +1,21 @@
+.new-movie a {
+    color: #666666;
+    text-transform: capitalize;
+    font-size: 14px;
+    text-decoration: none;
+    font-weight: bold;
+}
+.new-movie a:hover {
+    color: #ff8a00;
+}
+.new-movie p{
+    color: #1A1A1A;
+    margin-bottom: 5px;
+    text-transform: capitalize;
+    font-size: 14px;
+    text-decoration: none;
+    font-weight: bold;
+}
+footer{
+    background-color: #060606;
+}
