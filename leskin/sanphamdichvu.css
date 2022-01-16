@@ -1,0 +1,45 @@
+.banner1 img {
+    width: 100%;
+}
+
+.link {
+    padding-top: 20px;
+    margin-left: 20px;
+}
+
+.link a {
+    color: #121212;
+}
+
+.link a:hover {
+    color: #dd8f22;
+}
+
+.link p {
+    font-size: 30px;
+    margin-bottom: 0;
+    text-transform: uppercase;
+    font-weight: 100;
+}
+
+.nextpage {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 0;
+}
+
+.nextpage li {
+    list-style: none;
+}
+
+.nextpage a {
+    padding: 5px 10px;
+    text-decoration: none;
+    margin: 0 10px;
+    border: 1px solid #ccc;
+    color: #121212;
+}
+.nextpage a:hover{
+    background-color: #dd8f22;
+}

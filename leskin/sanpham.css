@@ -1,0 +1,154 @@
+.demo {
+    width:50%;
+}
+ul {
+    list-style: none outside none;
+    padding-left: 0;
+    margin-bottom:0;
+}
+li {
+    display: block;
+    float: left;
+    margin-right: 6px;
+    cursor:pointer;
+}
+img {
+    display: block;
+    height: auto;
+    max-width: 100%;
+}
+.link{
+    margin-top:100px;
+}
+.chitietsanpham{
+    display: flex;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px ;
+    box-shadow: 1px 4px 4px rgba(0, 0, 0, 0.5);
+}
+.infor-sp li{
+    float: none;
+}
+.infor{
+    width: 50%;
+    padding-left: 20px;
+}
+.infor h3{
+    margin: 0 0 15px;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 34px;
+    color: #212121;
+}
+.infor a{
+    color: #dd8f22;
+}
+.gia{
+    color: #dd8f22;
+    font-weight: 600;
+    font-size: 24px;
+}
+.time{
+    padding:5px 20px;
+    margin: 10px;
+    border: 1px dashed #dd8f22;
+}
+.time p{
+    margin: 0;
+    padding:5px 10px;
+}
+.number-sp{
+    margin-top: 30px ;
+    display: flex;
+    justify-content:flex-start;
+    align-items: center;
+}
+.number-sp p{
+    margin: 0;
+}
+.number-sp input{
+    width: 20%;
+    margin: 0 10px;
+    text-align: center;
+    border: 1px solid #ccc;
+    padding: 5px;
+    border-radius: 5px;
+}
+.number-sp button{
+    background-color: #dd8f22;
+    padding: 5px;
+    color: white;
+    border-radius: 5px;
+    border: 1px transparent;
+}
+.mota{
+    margin-top:30px;
+}
+.diadiem{
+    margin: 10px;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px 0 rgba(0,0,0,0.5);
+}
+.bando{
+    display: flex;
+    border-bottom: 1px solid #ccc;
+}
+.bando p{
+    margin-left: 10px;
+}
+.fa-map-marker{
+    font-size: 20px;
+    color: #dd8f22;
+    margin: 0 0 0 10px;
+}
+.thongtinsp{
+    margin: 10px;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px 0 rgba(0,0,0,0.5);
+}
+.thongtin{
+    display: flex;
+    border-bottom: 1px solid #ccc;
+    padding-bottom:5px;
+}
+.thongtin a{
+    margin: 0 10px;
+    color: #212121;
+    font-size:20px;
+    text-decoration: none;
+    border-bottom: 2px solid #dd8f2200;
+    margin-bottom: -1px;
+    padding: 10px 0;  
+}
+.thongtin a:hover{
+    color: #dd8f22;
+    border-bottom: 2px solid #dd8f22;
+}
+.text-sp p{
+    text-align: justify;
+}
+.img-sp img{
+    width: 100%;
+}
+.cacbuoc{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+.cacbuoc li{
+    margin-left: 20px;
+}
+@media screen and (max-width: 426px) {
+    .chitietsanpham{
+        display: block;
+    }
+    .demo{
+        width: 100%;
+    }
+    .infor{
+        width: 100%;
+    }
+}
