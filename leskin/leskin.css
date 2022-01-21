@@ -148,6 +148,12 @@
     color: #dd8f22;
     font-weight: bold;
 }
+.btn-more:hover {
+    color: #fff;
+    background-color: #dd8f22;
+    transition: all .35s;
+    cursor: pointer;
+}
 .right{
     transform:rotateY(180deg);
 }
